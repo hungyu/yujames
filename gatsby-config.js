@@ -32,39 +32,6 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-source-wordpress',
-      options: {
-        baseUrl: 'wpdemo.gatsbycentral.com',
-        // WP.com sites set to true, WP.org set to false
-        hostingWPCOM: false,
-        // The protocol. This can be http or https.
-        protocol: 'https',
-        // Use 'Advanced Custom Fields' Wordpress plugin
-        useACF: false,
-        // Set to true to debug endpoints on 'gatsby build'
-        verboseOutput: false,
-        includedRoutes: [
-          '**/categories',
-          '**/posts',
-          '**/pages',
-          '**/media',
-          '**/tags',
-          '**/taxonomies',
-          '**/users'
-        ],
-        plugins: [
-          {
-            resolve: `gatsby-wordpress-inline-images`,
-            options: {
-              baseUrl: `wpdemo.gatsbycentral.com`,
-              protocol: `https`,
-              postTypes: ['post', 'page']
-            }
-          }
-        ]
-      }
-    },
-    {
       resolve: 'gatsby-theme-wordpress-mdx',
       options: {
         // Requiered
