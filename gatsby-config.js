@@ -28,7 +28,7 @@ module.exports = {
         background_color: `#353e4a`,
         theme_color: `#353e4a`,
         display: `minimal-ui`,
-        icon: `static/favicon.ico` // This path is relative to the root of the site.
+        icon: `static/favicon.jpg` // This path is relative to the root of the site.
       }
     },
     {
@@ -45,14 +45,14 @@ module.exports = {
         headerHeight: 64,
         sideBarWidth: 240,
         navButtonTheme: {
-          showButtonTheme: true
+          showButtonTheme: false
           // text: 'Change',
           // colorsModes: ['deep', 'purple']
         },
-        /* colorModes: {
-          default: 'gray'
-        }, */
-        logo: `src/images/logo.svg` // This path is relative to the root of the site.
+         colorModes: {
+          default: 'light'
+        }, 
+        logo: `src/images/logo.jpg` // This path is relative to the root of the site.
       }
     }
   ]

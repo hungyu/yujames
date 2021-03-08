@@ -32,6 +32,6 @@ export default {
     }
   },
   logo: {
-    width: '4em'
+    width: '9em'
   }
 }
