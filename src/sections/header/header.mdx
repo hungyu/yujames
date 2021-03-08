@@ -1,5 +1,5 @@
 ---
-imagesFluid: [image2.png, image1.jpg]
+imagesFluid: [image1.jpg]
 ---
 
 <BgImage
@@ -14,17 +14,4 @@ imagesFluid: [image2.png, image1.jpg]
   fluid={props.imagesFluid['image1.jpg']}
   backgroundColor={props.context.theme.colors.backgroundHeader}
 >
-  <Div sx={{p: 4}} >
-    <h1 >Title Header</h1>
-  </Div>
-  
-  <ImgGatsby
-    fluid={props.imagesFluid['image2.png']}
-    sx={{
-      position: 'absolute !important',
-      bottom: '0px',
-      width: '100%',
-      height: '86vh'
-    }}
-  />
 </BgImage>
