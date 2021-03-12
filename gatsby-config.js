@@ -6,14 +6,14 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'MDX WP',
-    description: 'It is a WP with MDX blog ',
-    keywords: ['GatsbyJs', 'React', 'theme-ui'],
-    siteURL: 'https://gatsby-starter-mountain.netlify.com', // No trailing slash allowed!
+    title: '羽匠空間設計',
+    description: '設計，一切的起點，貼近需求，便是設計的目的。工程，讓設計呈現於你我眼前，實踐您心中藍圖。',
+    keywords: ['設計', '室內設計', '空間設計'],
+    siteURL: 'http://www.yujames.com', // No trailing slash allowed!
     siteImage: '/preview.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@CArtezan',
+    twitterUsername: 'ss',
     author: {
-      name: 'Cesar Artezan'
+      name: 'Josh'
     }
   },
   plugins: [
@@ -28,7 +28,7 @@ module.exports = {
         background_color: `#353e4a`,
         theme_color: `#353e4a`,
         display: `minimal-ui`,
-        icon: `static/favicon.jpg` // This path is relative to the root of the site.
+        icon: `static/favicon2.png` // This path is relative to the root of the site.
       }
     },
     {
@@ -52,7 +52,7 @@ module.exports = {
          colorModes: {
           default: 'light'
         }, 
-        logo: `src/images/logo.jpg` // This path is relative to the root of the site.
+        logo: `src/images/logo2.png` // This path is relative to the root of the site.
       }
     }
   ]
